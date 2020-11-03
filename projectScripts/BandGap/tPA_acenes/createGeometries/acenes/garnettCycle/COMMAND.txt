@@ -1,0 +1,8 @@
+awk '{print $2,$4,$5,$6}' cycle12.txt |awk '{gsub("6","C",$1)}1' |awk '{gsub("1","H",$1)}1' > acene12out.out
+
+
+awk '{print $2,$4,$5,$6}' cycle12.txt |awk '{gsub("6","C",$1)}1' |awk '{gsub("1","H",$1)}1' > acene12out.out
+
+https://www.unix.com/unix-for-dummies-questions-and-answers/176416-use-sed-replace-but-only-specific-column-text-file.html
+
+
